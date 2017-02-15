@@ -233,6 +233,9 @@ node_types:
       anti_spoofing_protection:
         type: boolean
         required: false
+      allowed_address_pairs:
+        type: list
+        required: false
       security_groups:
         type: list
         required: false
